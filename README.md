@@ -14,12 +14,12 @@ If you like CambridgeTemperatureNotebooks, give it a star, or fork it and contri
 
 Required:
  * [python](https://www.python.org/)
+ * [Jupyter](https://jupyter.org/)
  * [pandas](https://pandas.pydata.org/)
  * [numpy](http://numpy.org/)
  * [matplotlib](http://matplotlib.org/)
  * [seaborn](https://seaborn.pydata.org/)
  * [tensorflow >= 2.2](tensorflow.org)
- * [Jupyter](https://jupyter.org/)
 
 To install the python packages:
 ```sh
@@ -28,6 +28,7 @@ pip install -r requirements.txt
 
 After the above dependencies have been installed either,
  * clone the repository and open the notebook(s) in a local installation of Jupyter
+
 or,
  * try notebook(s) remotely
    * MLP, FCN, ResNet for temperature forecasts
