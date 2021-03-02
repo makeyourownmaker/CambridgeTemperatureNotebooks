@@ -54,17 +54,28 @@ facing forecasts every 2 hours.
 
 ### MLP, FCN, ResNet for temperature forecasts
 
-Describe mlp, fcn, resnet notebook ...
+There is 10 years of training data (mid-2008 to 2017 inclusive) plus
+validation data from 2018 and test data from 2019.
 
-More details in the notebook linked above.
+I use the following neural network architectures to make temperature forecasts:
+ * Multi-layer perceptron (MLP)
+ * Fully convolutional network (FCN)
+ * Residual network (ResNet)
+
+The [mixup method](https://arxiv.org/abs/1710.09412)
+is used to counteract the categorical wind bearing measurements.
+
+More details are included in the
+[keras MLP, FCN, ResNet time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
 
 
 ## Roadmap
 
+ * Update data to include 2020
  * Improve tensorflow/keras models
    * optimise architectures and other hyperparameters
    * investigate test time augmentation
-   * see future work section in notebook
+   * see future work section in the [keras MLP, FCN, ResNet time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
  * Check temporal fusion transformers performance
    * [Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting](https://arxiv.org/abs/1912.09363)
 
