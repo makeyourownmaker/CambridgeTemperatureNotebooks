@@ -31,7 +31,7 @@ After the above dependencies have been installed either,
 
 or,
  * try notebook(s) remotely
-   * MLP, FCN, ResNet for temperature forecasts
+   * MLP, FCN, ResNet, LSTM for temperature forecasts
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb) - editable
      * [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fkeras_mlp_fcn_resnet_time_series.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb)
@@ -53,7 +53,7 @@ next 1 to 2 hours.  This is because I live close to the data source and
 the [UK met office](https://www.metoffice.gov.uk/) only update their public 
 facing forecasts every 2 hours.
 
-### MLP, FCN, ResNet for temperature forecasts
+### MLP, FCN, ResNet, LSTM for temperature forecasts
 
 There is 10 years of training data (mid-2008 to 2017 inclusive) plus
 validation data from 2018 and test data from 2019.
@@ -62,12 +62,13 @@ I use the following neural network architectures to make temperature forecasts:
  * Multi-layer perceptron (MLP)
  * Fully convolutional network (FCN)
  * Residual network (ResNet)
+ * Long short term memory (LSTM)
 
 The [mixup method](https://arxiv.org/abs/1710.09412)
 is used to counteract the categorical wind bearing measurements.
 
 More details are included in the
-[keras MLP, FCN, ResNet time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
+[keras MLP, FCN, ResNet, LSTM time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
 
 
 ## Roadmap
@@ -82,7 +83,7 @@ More details are included in the
  * Improve tensorflow/keras models
    * optimise architectures and other hyperparameters
    * investigate test time augmentation
-   * see future work section in the [keras MLP, FCN, ResNet time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
+   * see future work section in the [keras MLP, FCN, ResNet, LSTM time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
  * Check temporal fusion transformers performance
    * [Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting](https://arxiv.org/abs/1912.09363)
 
