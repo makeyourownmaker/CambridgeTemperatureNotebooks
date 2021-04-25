@@ -7,7 +7,16 @@
 
 Time series and other models for Cambridge UK temperature forecasts in python
 
-If you like CambridgeTemperatureNotebooks, give it a star, or fork it and contribute!
+If you like CambridgeTemperatureNotebooks, give it a star, or fork it and
+contribute!
+
+Summary of single step-ahead predictions using simple Long Short Term Memory
+model with 12 hours of lagged variables plus test time augmentation:
+
+![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/LSTM_24lags_1stepahead_TTA.01.png)
+
+These predictions are for separate test data from 2019.
+RMSE is 7.26 and MAE is 3.71.
 
 
 ## Installation/Usage
