@@ -29,6 +29,7 @@ Required:
  * [matplotlib](http://matplotlib.org/)
  * [seaborn](https://seaborn.pydata.org/)
  * [tensorflow >= 2.2](tensorflow.org)
+ * [statsmodels](https://www.statsmodels.org/stable/index.html)
 
 To install the python packages:
 ```sh
@@ -45,6 +46,11 @@ or,
      * [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fkeras_mlp_fcn_resnet_time_series.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb)
+   * 2021 baseline forecasts
+     * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb) - editable
+     * [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fcammet_baselines_2021.ipynb) - editable
+     * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb)
+     * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb)
 
 
 ## Details
@@ -64,7 +70,7 @@ facing forecasts every 2 hours.
 
 ### MLP, FCN, ResNet, LSTM for temperature forecasts
 
-There is 10 years of training data (mid-2008 to 2017 inclusive) plus
+There are 10 years of training data (mid-2008 to 2017 inclusive) plus
 validation data from 2018 and test data from 2019.
 
 I use the following neural network architectures to make temperature forecasts:
@@ -79,10 +85,27 @@ is used to counteract the categorical wind bearing measurements.
 More details are included in the
 [keras MLP, FCN, ResNet, LSTM time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
 
+### 2021 baseline forecasts
+
+There are over 10 years of data (mid-2008 to early-2021 inclusive).
+
+I compare forecasts from univariate and multivariate methods in the
+[statsmodels](https://www.statsmodels.org/stable/index.html) package
+to establish reasonable baselines results.
+
+Methods include:
+ * persistent
+ * simple exponential smoothing
+ * Holt Winter's exponential smoothing
+ * vector autoregression
+ * SARIMAX
+
+More details are included in the
+[2021 baseline forecasts notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb).
+
 
 ## Roadmap
 
- * Update data to include 2020
  * Add standard deviations to MSE, MAE and MAPE values
  * Examine [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) weather model
    * runs four times a day, produces forecasts up to 16 days in advance
@@ -91,7 +114,6 @@ More details are included in the
    * potentially use as additional exogeneous variables
  * Improve tensorflow/keras models
    * optimise architectures and other hyperparameters
-   * investigate test time augmentation
    * see future work section in the [keras MLP, FCN, ResNet, LSTM time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
  * Check temporal fusion transformers performance
    * [Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting](https://arxiv.org/abs/1912.09363)
