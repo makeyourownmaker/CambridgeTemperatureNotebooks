@@ -5,7 +5,7 @@
 ![Python
 ](https://img.shields.io/badge/Python-blue.svg?style=flat)
 
-Time series and other models for Cambridge UK temperature forecasts in python
+Time series and deep learning models for Cambridge UK temperature forecasts in python
 
 If you like CambridgeTemperatureNotebooks, give it a star, or fork it and
 contribute!
@@ -41,7 +41,7 @@ After the above dependencies have been installed either,
 
 or,
  * try notebook(s) remotely
-   * MLP, FCN, ResNet, LSTM for temperature forecasts
+   * pre-2021 MLP, FCN, ResNet, LSTM for temperature forecasts
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb) - editable
      * [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fkeras_mlp_fcn_resnet_time_series.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb)
@@ -51,6 +51,11 @@ or,
      * [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fcammet_baselines_2021.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb)
+   * 2021 LSTM forecasts
+     * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/lstm_time_series.ipynb) - editable
+     * [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Flstm_time_series.ipynb) - editable
+     * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/lstm_time_series.ipynb)
+     * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/lstm_time_series.ipynb)
 
 
 ## Details
@@ -106,7 +111,7 @@ More details are included in the
 
 ## Roadmap
 
- * Add standard deviations to MSE, MAE and MAPE values
+ * Add standard deviations to MSE, MAE values
  * Examine [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) weather model
    * runs four times a day, produces forecasts up to 16 days in advance
    * data is available for free in the public domain
