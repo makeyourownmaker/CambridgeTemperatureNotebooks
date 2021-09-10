@@ -103,10 +103,18 @@ Methods include:
  * simple exponential smoothing
  * Holt Winter's exponential smoothing
  * vector autoregression
- * SARIMAX
 
 More details are included in the
 [2021 baseline forecasts notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb).
+
+### 2021 LSTM forecasts
+
+A more detailed look at LSTM based architectures.
+
+Including:
+ * some parameter optimisation and comparison
+ * stacked LSTMs
+ * encoder-decoder (seq2seq) architectures
 
 
 ## Roadmap
