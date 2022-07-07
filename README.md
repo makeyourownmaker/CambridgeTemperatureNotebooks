@@ -56,6 +56,11 @@ or,
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Flstm_time_series.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/lstm_time_series.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/lstm_time_series.ipynb)
+   * 2021 CNN forecasts
+     * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cnn_time_series.ipynb) - editable
+     * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fcnn_time_series.ipynb) - editable
+     * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cnn_time_series.ipynb)
+     * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cnn_time_series.ipynb)
 
 
 ## Details
@@ -114,7 +119,18 @@ A more detailed look at LSTM based architectures.
 Including:
  * some parameter optimisation and comparison
  * stacked LSTMs
- * encoder-decoder (seq2seq) architectures
+ * bidirectional LSTMs
+ * ConvLSTM1D
+
+### 2021 CNN forecasts
+
+A more detailed look at CNN based architectures.
+
+Including:
+ * Conv1D
+ * multi-head Conv1D
+ * Conv2D
+ * Inception-style
 
 
 ## Roadmap
