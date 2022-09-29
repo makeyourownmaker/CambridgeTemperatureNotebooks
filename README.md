@@ -61,6 +61,11 @@ or,
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fcnn_time_series.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cnn_time_series.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cnn_time_series.ipynb)
+   * 2021 encoder decoder forecasts
+     * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb) - editable
+     * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fencoder_decoder.ipynb) - editable
+     * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb)
+     * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb)
 
 
 ## Details
@@ -132,20 +137,26 @@ Including:
  * Conv2D
  * Inception-style
 
+### 2021 encoder decoder forecasts
+
+A look at encoder decoder based architectures.
+
+Including:
+ * Autoencoder with attention
+ * Encoder decoder with teacher forcing and autoregressive inference
+ * Transformer encoder decoder with teacher forcing, positional embedding, padding and autoregressive inference
+ * Encoder only transformer with positional embedding
 
 ## Roadmap
 
+ * Add prediction intervals
  * Add standard deviations to MSE, MAE values
  * Examine [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) weather model
    * runs four times a day, produces forecasts up to 16 days in advance
    * data is available for free in the public domain
    * model serves as the basis for the forecasts of numerous services
    * potentially use as additional exogeneous variables
- * Improve tensorflow/keras models
-   * optimise architectures and other hyperparameters
-   * see future work section in the [keras MLP, FCN, ResNet, LSTM time series notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb).
- * Check temporal fusion transformers performance
-   * [Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting](https://arxiv.org/abs/1912.09363)
+ * See future work sections in each of the notebooks linked above
 
 
 ## Contributing
