@@ -149,6 +149,11 @@ Including:
 
 ## Roadmap
 
+ * Improve data cleaning
+   * Compute missing [temperature from relative humidity and dew point](https://earthscience.stackexchange.com/questions/14899/how-can-temperature-be-calculated-given-relative-humidity-and-dew-point)
+   * Compute missing [dew point from relative humidity and temperature](https://carnotcycle.wordpress.com/2017/08/01/compute-dewpoint-temperature-from-rh-t/)
+   * Compute missing [relative humidity from temperature, dew point, and pressure](https://earthscience.stackexchange.com/questions/16570/how-to-calculate-relative-humidity-from-temperature-dew-point-and-pressure)
+   * These calculations would be preferable to imputation, interpolation, substitution with neighboring weather data or historical averages
  * Add prediction intervals
  * Add standard deviations to MSE, MAE values
  * Examine [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) weather model
