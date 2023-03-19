@@ -156,6 +156,10 @@ Including:
    * These calculations would be preferable to imputation, interpolation, substitution with neighboring weather data or historical averages
  * Add prediction intervals
  * Add standard deviations to MSE, MAE values
+ * Benchmark against anachronistic methods and parameterization method for fun
+   * My [ParametricWeatherModel](https://github.com/makeyourownmaker/ParametricWeatherModel) script (requires cloud fraction)
+   * The [Zambretti Forecaster](https://en.wikipedia.org/wiki/Zambretti_Forecaster) from 1915
+   * The [Sager Weathercaster](https://www.weather.vouhead.gr/wxforecast-sager.php?lang=en) from 1942 (requires cloud fraction)
  * Examine [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) weather model
    * runs four times a day, produces forecasts up to 16 days in advance
    * data is available for free in the public domain
