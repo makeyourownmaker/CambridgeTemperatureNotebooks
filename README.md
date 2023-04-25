@@ -159,7 +159,13 @@ Including:
  * Benchmark against anachronistic methods and parameterization method for fun
    * My [ParametricWeatherModel](https://github.com/makeyourownmaker/ParametricWeatherModel) script (requires cloud fraction)
    * The [Zambretti Forecaster](https://en.wikipedia.org/wiki/Zambretti_Forecaster) from 1915
+     * [python implementation](https://github.com/jim-easterbrook/pywws/blob/master/src/pywws/forecast.py)
+     * [More info](https://web.archive.org/web/20110610213848/http://www.meteormetrics.com/zambretti.htm)
+     * Possibly most useful for feature engineering
    * The [Sager Weathercaster](https://www.weather.vouhead.gr/wxforecast-sager.php?lang=en) from 1942 (requires cloud fraction)
+     * [Javascript implementation](https://www.weather-above.com/sager_cast.js)
+     * [More info](https://www.weather-above.com/Sager%20Algorithm.html)
+     * Possibly most useful for feature engineering
  * Examine [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) weather model
    * runs four times a day, produces forecasts up to 16 days in advance
    * data is available for free in the public domain
