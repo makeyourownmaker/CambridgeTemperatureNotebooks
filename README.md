@@ -5,7 +5,7 @@
 ![Python
 ](https://img.shields.io/badge/Python-blue.svg?style=flat)
 
-Time series and deep learning models for Cambridge UK temperature forecasts in python
+Time series deep learning and boosted trees models for Cambridge UK temperature forecasts in python
 
 If you like CambridgeTemperatureNotebooks, give it a star, or fork it and
 contribute!
