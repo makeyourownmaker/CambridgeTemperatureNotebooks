@@ -159,7 +159,7 @@ Building gradient boosted tree models.
 Including:
  * lightGBM and catBoost models
  * missing data annotation
- * solar feature calculations
+ * solar (irradiance etc) and humidity (absolute humidity, mixing ratio etc) feature calculations
  * lags and past covariate lags selection
  * Borota-style shadow variables for feature selection
  * seasonal decomposition of temperature, humidity, dew.point and pressure
