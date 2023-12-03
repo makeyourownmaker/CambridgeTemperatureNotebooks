@@ -117,7 +117,12 @@ Methods include:
  * persistent
  * simple exponential smoothing
  * Holt Winter's exponential smoothing
- * vector autoregression
+ * vector autoregression (VAR)
+
+An updated VAR baseline based on more and cleaner data plus better
+model diagnostics and much improved, faster code can be found
+in the gradient boosted trees notebook below.  This set of
+baselines should be considered out of date.
 
 More details are included in the
 [2021 baseline forecasts notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb).
@@ -157,10 +162,11 @@ Including:
 Building gradient boosted tree models.
 
 Including:
+ * updated VAR baseline
  * lightGBM and catBoost models
  * missing data annotation
  * solar (irradiance etc) and humidity (absolute humidity, mixing ratio etc) feature calculations
- * lags and past covariate lags selection
+ * target, past covariate and future covariate lags selection
  * Borota-style shadow variables for feature selection
  * seasonal decomposition of temperature, humidity, dew.point and pressure
 
