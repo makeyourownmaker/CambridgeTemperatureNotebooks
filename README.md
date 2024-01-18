@@ -66,6 +66,11 @@ or,
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fencoder_decoder.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb)
+   * 2008-2022 feature engineering
+     * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb) - editable
+     * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Ffeature_engineering.ipynb) - editable
+     * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb)
+     * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb)
    * 2008-2022 gradient boosted trees
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fgradient_boosting.ipynb) - editable
@@ -157,18 +162,25 @@ Including:
  * Transformer encoder decoder with teacher forcing, positional embedding, padding and autoregressive inference
  * Encoder only transformer with positional embedding
 
+### 2008-2022 feature engineering
+
+Create univariate and bivariate meteorological and time series features.
+
+Including:
+ * missing data annotation
+ * solar (irradiance etc) and humidity (absolute humidity, mixing ratio etc) feature calculations
+ * seasonal decomposition of temperature and dew.point
+ * tsfeatures, catch22, bivariate features etc
+
 ### 2008-2022 gradient boosted trees
 
 Building gradient boosted tree models.
 
 Including:
  * updated VAR baseline
- * lightGBM and catBoost models
- * missing data annotation
- * solar (irradiance etc) and humidity (absolute humidity, mixing ratio etc) feature calculations
+ * lightGBM models with darts time series framework and optuna studies
  * target, past covariate and future covariate lags selection
  * Borota-style shadow variables for feature selection
- * seasonal decomposition of temperature, humidity, dew.point and pressure
 
 
 ## Roadmap
