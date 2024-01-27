@@ -46,26 +46,31 @@ or,
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fkeras_mlp_fcn_resnet_time_series.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb)
+     * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/keras_mlp_fcn_resnet_time_series.ipynb%20-%20Colaboratory.pdf)
    * 2008-2021 baseline forecasts
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fcammet_baselines_2021.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cammet_baselines_2021.ipynb)
+     * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/cammet_baselines_2021.ipynb%20-%20Colaboratory.pdf)
    * 2008-2021 LSTM forecasts
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/lstm_time_series.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Flstm_time_series.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/lstm_time_series.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/lstm_time_series.ipynb)
+     * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/lstm_time_series.ipynb%20-%20Colaboratory.pdf)
    * 2008-2021 CNN forecasts
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cnn_time_series.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fcnn_time_series.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cnn_time_series.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/cnn_time_series.ipynb)
+     * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/cnn_time_series.ipynb%20-%20Colaboratory.pdf)
    * 2008-2022 encoder decoder forecasts
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fencoder_decoder.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb)
+     * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/encoder_decoder.ipynb%20-%20Colaboratory.pdf)
    * 2008-2022 feature engineering
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Ffeature_engineering.ipynb) - editable
