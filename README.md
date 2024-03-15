@@ -160,9 +160,9 @@ Create univariate and bivariate meteorological and time series features.
 
 Including:
  * missing data annotation
- * solar (irradiance etc) and humidity (absolute humidity, mixing ratio etc) feature calculations
+ * solar (irradiance etc) and meteorological (absolute humidity, mixing ratio etc) feature calculations
  * seasonal decomposition of temperature and dew.point
- * tsfeatures, catch22, bivariate features etc
+ * rolling statistics, tsfeatures, catch22, bivariate features etc
 
 ### 2008-2022 gradient boosted trees
 
