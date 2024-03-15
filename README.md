@@ -19,28 +19,11 @@ These predictions are for separate test data from 2019.
 RMSE is 7.26 and MAE is 3.71.
 
 
-## Installation/Usage
+## Usage
 
-Required:
- * [python](https://www.python.org/)
- * [Jupyter](https://jupyter.org/)
- * [pandas](https://pandas.pydata.org/)
- * [numpy](http://numpy.org/)
- * [matplotlib](http://matplotlib.org/)
- * [seaborn](https://seaborn.pydata.org/)
- * [tensorflow >= 2.2](tensorflow.org)
- * [statsmodels](https://www.statsmodels.org/stable/index.html)
+It is easiest to open the notebooks in google Colaboratory.
 
-To install the python packages:
-```sh
-pip install -r requirements.txt
-```
-
-After the above dependencies have been installed either,
- * clone the repository and open the notebook(s) in a local installation of Jupyter
-
-or,
- * try notebook(s) remotely
+ * Try notebook(s) remotely
    * pre-2021 MLP, FCN, ResNet, LSTM for temperature forecasts
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/keras_mlp_fcn_resnet_time_series.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fkeras_mlp_fcn_resnet_time_series.ipynb) - editable
@@ -76,11 +59,15 @@ or,
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Ffeature_engineering.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb)
+     * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/feature_engineering.ipynb%20-%20Colaboratory.pdf)
    * 2008-2022 gradient boosted trees
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fgradient_boosting.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb)
+
+Alternatively, clone the repository and open the notebook(s) in a local installation of Jupyter.
+It will be necessary to install the required dependencies.
 
 
 ## Details
