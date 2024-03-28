@@ -54,13 +54,19 @@ It is easiest to open the notebooks in google Colaboratory.
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/encoder_decoder.ipynb)
      * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/encoder_decoder.ipynb%20-%20Colaboratory.pdf)
-   * 2008-2022 feature engineering
+   * 2016-2022 updated VAR baseline
+     * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/VAR_baseline.ipynb) - editable
+     * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2FVAR_baseline.ipynb) - editable
+     * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/VAR_baseline.ipynb)
+     * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/VAR_baseline.ipynb)
+     * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/VAR_baseline.ipynb%20-%20Colaboratory.pdf)
+   * 2016-2022 feature engineering
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Ffeature_engineering.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb)
      * View on [GitHub](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/feature_engineering.ipynb)
      * [View or download pdf](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/docs/feature_engineering.ipynb%20-%20Colaboratory.pdf)
-   * 2008-2022 gradient boosted trees
+   * 2016-2022 gradient boosted trees
      * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb) - editable
      * [![Binder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/makeyourownmaker/CambridgeTemperatureNotebooks/main?filepath=notebooks%2Fgradient_boosting.ipynb) - editable
      * View on [NBViewer](https://nbviewer.jupyter.org/github/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb)
@@ -154,7 +160,7 @@ Including:
  * Transformer encoder decoder with teacher forcing, positional embedding, padding and autoregressive inference
  * Encoder only transformer with positional embedding
 
-### 2008-2022 feature engineering
+### 2016-2022 feature engineering
 
 Create univariate and bivariate meteorological and time series features.
 
@@ -164,7 +170,7 @@ Including:
  * seasonal decomposition of temperature and dew.point
  * rolling statistics, tsfeatures, catch22, bivariate features etc
 
-### 2008-2022 gradient boosted trees
+### 2016-2022 gradient boosted trees
 
 Building gradient boosted tree models.
 
@@ -184,16 +190,8 @@ Including:
    * These calculations would be preferable to imputation, interpolation, substitution with neighboring weather data or historical averages
  * Add prediction intervals
  * Add standard deviations to MSE, MAE values
- * Benchmark against anachronistic methods and parameterization method for fun
+ * Benchmark against parameterization method
    * My [ParametricWeatherModel](https://github.com/makeyourownmaker/ParametricWeatherModel) script (requires cloud fraction)
-   * The [Zambretti Forecaster](https://en.wikipedia.org/wiki/Zambretti_Forecaster) from 1915
-     * [python implementation](https://github.com/jim-easterbrook/pywws/blob/master/src/pywws/forecast.py)
-     * [More info](https://web.archive.org/web/20110610213848/http://www.meteormetrics.com/zambretti.htm)
-     * Possibly most useful for feature engineering
-   * The [Sager Weathercaster](https://www.weather.vouhead.gr/wxforecast-sager.php?lang=en) from 1942 (requires cloud fraction)
-     * [Javascript implementation](https://www.weather-above.com/sager_cast.js)
-     * [More info](https://www.weather-above.com/Sager%20Algorithm.html)
-     * Possibly most useful for feature engineering
  * Examine [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) weather model
    * runs four times a day, produces forecasts up to 16 days in advance
    * data is available for free in the public domain
