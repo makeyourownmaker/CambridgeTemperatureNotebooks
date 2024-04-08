@@ -10,13 +10,18 @@ Time series deep learning and boosted trees models for Cambridge UK temperature 
 If you like CambridgeTemperatureNotebooks, give it a star, or fork it and
 contribute!
 
-Summary of single step-ahead predictions using simple Long Short Term Memory
-model with 12 hours of lagged variables plus test time augmentation:
+Summary of 48 step-ahead predictions using darts lightGBM
+model with selected lagged features and optimised hyperparameters:
 
-![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/LSTM_24lags_1stepahead_TTA.01.png)
+![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/obs_vs_preds_all_steps_01.png)
 
-These predictions are for separate test data from 2019.
-RMSE is 7.26 and MAE is 3.71.
+![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/forecast_horizon_metrics_01.png)
+
+The mean RMSE across the 48 step (24 hours) forecast horizon is 0.94 and the MAE is 0.63.
+
+The darts lightGBM model is greatly superior to the VAR (Vector AutoRegression) baseline.
+These predictions are for held out test data from 2022.  
+Additional model diagnostics are included above the Roadmap section further down this page.
 
 
 ## Usage
@@ -155,10 +160,11 @@ Including:
 Examining encoder decoder based architectures.
 
 Including:
- * Autoencoder with attention
- * Encoder decoder with teacher forcing and autoregressive inference
- * Transformer encoder decoder with teacher forcing, positional embedding, padding and autoregressive inference
- * Encoder only transformer with positional embedding
+ * autoencoder with attention
+ * encoder decoder with teacher forcing and autoregressive inference
+ * transformer encoder decoder with teacher forcing, positional embedding, padding and autoregressive inference
+ * encoder only transformer with positional embedding
+ * robust backtesting and experimentation framework
 
 ### 2016-2022 feature engineering
 
@@ -175,10 +181,19 @@ Including:
 Building gradient boosted tree models.
 
 Including:
- * updated VAR baseline
- * lightGBM models with darts time series framework and optuna studies
+ * multi-step lightGBM models with darts time series framework and optuna hyperparameter studies
  * target, past covariate and future covariate lags selection
- * Borota-style shadow variables for feature selection
+ * Borota-style shadow variables for lag and feature selection with lightGBM variable importance
+ * robust backtesting and experimentation framework
+
+Additional model diagnostics:
+![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/residuals_01.png)
+
+![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/residuals_kde_01.png)
+
+![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/forecast_horizon_abs_error_boxplots_01.png)
+
+See also, main diagnostics at top of this page.
 
 
 ## Roadmap
