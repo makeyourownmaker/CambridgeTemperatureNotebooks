@@ -17,11 +17,13 @@ model with selected lagged features and optimised hyperparameters:
 
 ![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/forecast_horizon_metrics_01.png)
 
+Click on images for larger versions.
 The mean RMSE across the 48 step (24 hours) forecast horizon is 0.94 and the MAE is 0.63.
 
 The darts lightGBM model is greatly superior to the VAR (Vector AutoRegression) baseline.
 These predictions are for held out test data from 2022.  
 Additional model diagnostics are included above the Roadmap section further down this page.
+See also, [gradient boosting notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb).
 
 
 ## Usage
@@ -193,7 +195,9 @@ Additional model diagnostics:
 
 ![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/forecast_horizon_abs_error_boxplots_01.png)
 
-See also, main diagnostics at top of this page.
+Click on images for larger versions.
+See also, main diagnostics at top of this page or
+[gradient boosting notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb).
 
 
 ## Roadmap
