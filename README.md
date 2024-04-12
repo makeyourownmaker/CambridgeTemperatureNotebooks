@@ -203,6 +203,8 @@ Additional model diagnostics:
 
 ![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/forecast_horizon_abs_error_boxplots_01.png)
 
+![](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/figures/multistep_forecast_examples_01.png)
+
 Click on images for larger versions.
 See also, main diagnostics at top of this page or
 [gradient boosting notebook](https://github.com/makeyourownmaker/CambridgeTemperatureNotebooks/blob/main/notebooks/gradient_boosting.ipynb).
